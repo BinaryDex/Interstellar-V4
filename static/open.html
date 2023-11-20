@@ -75,9 +75,9 @@
         window.location.href = "./";
       });
       window.onload = function() {
-        let normalUrl = sessionStorage.getItem("normalUrl");
-        console.log(normalUrl);
-        document.querySelector("#iframeid").src = normalUrl;
+        let savedURL = sessionStorage.getItem("savedURL");
+        console.log(savedURL);
+        document.querySelector("#iframeid").src = savedURL;
       };
     </script>
     <script src="assets/js/panic.js"></script>
