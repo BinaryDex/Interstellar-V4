@@ -23,7 +23,7 @@ function dexopen(value) {
           url = "https://" + url;
         //pass the encoded url to the second page
         sessionStorage.setItem("encodedUrl", url);
-        location.href = "gonext";
+        location.href = "opendex";
       });
   }
   
