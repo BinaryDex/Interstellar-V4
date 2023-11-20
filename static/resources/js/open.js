@@ -1,4 +1,4 @@
-function open(url) {
+function dexopen(url) {
     var newWindow = window.open("", "_blank");
 
     var iframe = document.createElement("iframe");
