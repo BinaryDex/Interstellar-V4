@@ -1,4 +1,4 @@
-function opdn(value) {
+function open(value) {
     let iframe = document.querySelector(".iframe.active");
     window.navigator.serviceWorker
       .register("./sw.js", {
