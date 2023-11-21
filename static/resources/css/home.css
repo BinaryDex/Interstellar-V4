@@ -224,9 +224,9 @@
     padding-left: 45px;
     height: 40px;
   }
-  #cookieNotice .title-wrap svg {
+  /*#cookieNotice .title-wrap svg {
     margin-right: 10px;
-  }
+  }*/
   #cookieNotice h4 {
     font-family: inherit;
     font-weight: 700;
